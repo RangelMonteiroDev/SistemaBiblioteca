@@ -29,9 +29,7 @@ Tabelas Principais
 
 3. Arquitetura
 
-    Arquitetura.Arquitetura: Define a estrutura física da biblioteca.
-    Arquitetura.Sala: Armazena informações sobre as salas da biblioteca.
-    Arquitetura.Andares: Contém dados sobre os andares da biblioteca.
+    Arquitetura.Arquitetura: Define a estrutura física da biblioteca. Envolvendo o numero de salas por Andar e os equipamentos e obejtos que estão em cada sala do andar
 
 4. Utilitarios
 
@@ -47,6 +45,9 @@ Os procedimentos armazenados são utilizados para encapsular a lógica de negóc
     Person.InsertInTbPerson: Insere novos registros de pessoas.
     Person.AlterarValorMulta: Atualiza o valor de multas associadas aos usuários.
     Person.multa: Insere novas multas e relaciona-as aos usuários.
+    Person.InserirPagamento : Insere Novos Pagamentos
+    Person.AumentarValorPagamento : Aumenta o valor do pagamento
+    Person.DescontoPagamento : Desconta a porcentagem escolhida pelo usuário no salário do funcionário
 
 Segurança
 
@@ -65,6 +66,10 @@ Implementação Futuras
     Funções: Serão implementadas funções para cálculos e operações específicas no banco de dados.
     Procedimentos Adicionais: Novos procedimentos armazenados serão criados para gerenciar melhor os dados e a lógica de negócios.
     Documentação: A documentação do sistema será atualizada conforme novas funcionalidades forem implementadas.
+
+TRIGGERS
+
+    os TRIGGERS foram implementados juntos com a tabela de Auditoria para guardar os dados dos usuários que fazem operações no Banco, incluindo seu endereço IP, bem como também guardar data e cada operação, a tabela e o SCHEMA onde foi feita a operação, por hora, só existem Gatilhos para duas tabelas que mapeiam apenas comandos DML, mas em breve teremos melhorias    
 
 Como Executar
 
