@@ -62,7 +62,7 @@ BEGIN
 
     INSERT INTO Seguranca.Auditoria (Operacao, Usuario, Tabela, Esquema, UsuarioIP, operacaoDATA)
 
-    VALUES (@operacao, @usuario, 'Departamento', 'Person', @enderecoIP, @operacao, @dataOperacao);           
+    VALUES (@operacao, @usuario, 'Departamento', 'Person', @enderecoIP, @dataOperacao);           
 
 END
 

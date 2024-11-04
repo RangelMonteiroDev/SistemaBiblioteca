@@ -56,6 +56,10 @@ Roles
 
     Admin: Acesso total para gerenciar usuários, dados e configurações do sistema.
     Usuario: Acesso restrito para gerenciar seus próprios dados e realizar empréstimos de livros.
+    ProfissionalRH : Acesso aos dados do Sistema, mas sem a possibilidade de alterações ou inserir novos dados
+    AnalistaContábil: Tem os mesmos privilégios do profissional de RH
+    Atendente: Acesso aos dados, atualização de dados, atualização de dados, e inserção de novos dados (CRUD)
+    Desenvolvedor: Acesso aos dados, atualização de dados, atualização de dados, e inserção de novos dados (CRUD), acesso aos procedimentos e futuramente privilégio de criação de novos usuários
 
 Users
 
